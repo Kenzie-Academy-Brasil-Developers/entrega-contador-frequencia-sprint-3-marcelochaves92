@@ -6,7 +6,7 @@ function handlerClick(){
     alert("Você começou a contagem!");
     let typedText = document.getElementById("textInput").value;
     typedText = typedText.toLowerCase();
-    typedText = typedText.replace(/[^a-z'\s]+/g, "");
+    typedText = typedText.replace(/[^a-z'\s]+/g, ""); 
     let newTyped = typedText.replace(/\s/g, "").split("");
     let words = typedText.split(' ');
     let count = {};
